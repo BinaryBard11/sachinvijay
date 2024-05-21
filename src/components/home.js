@@ -14,7 +14,7 @@ import img9 from "../images/img9.png";
 import img10 from "../images/img10.png";
 import img11 from "../images/img11.png";
 import img12 from "../images/img12.png";
-import logo2 from "../images/logo2.png";
+// import logo2 from "../images/logo2.png";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -106,7 +106,7 @@ export default function Home() {
 
         }}
       >
-       <img src={logo2} alt="logo" width={"70px"} height={"70px"} />
+       {/* <img src={logo2} alt="logo" width={"70px"} height={"70px"} /> */}
        <Box sx={{
         display:"flex",
         justifyContent:"space-between",
