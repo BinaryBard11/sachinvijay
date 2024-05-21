@@ -1,0 +1,279 @@
+import { Box, Typography } from "@mui/material";
+import React, { useEffect, useState,useRef  } from "react";
+import img26 from "../images/img26.png";
+import img1 from "../images/img1.png";
+import img2 from "../images/img2.png";
+import img3 from "../images/img3.png";
+import img4 from "../images/img4.png";
+
+import img5 from "../images/img5.png";
+import img6 from "../images/img6.png";
+import img7 from "../images/img7.png";
+import img8 from "../images/img8.png";
+import img9 from "../images/img9.png";
+import img10 from "../images/img10.png";
+import img11 from "../images/img11.png";
+import img12 from "../images/img12.png";
+import logo2 from "../images/logo2.png";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+export default function Home() {
+  const photos1 = [img1, img2, img3, img4];
+  const photos2 = [img5, img6, img7, img8];
+  const photos3 = [img9, img10, img11, img12];
+
+  const [currentPhotoIndex1, setCurrentPhotoIndex1] = useState(0);
+  const [currentPhotoIndex2, setCurrentPhotoIndex2] = useState(0);
+  const [currentPhotoIndex3, setCurrentPhotoIndex3] = useState(0);
+
+
+
+  const aboutRef = useRef(null);
+
+  // Function to handle click event and scroll to the about section
+  const scrollToAbout = () => {
+    aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const galleryRef = useRef(null);
+
+  // Function to handle click event and scroll to the about section
+  const scrollToGallery = () => {
+    galleryRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const placesRef = useRef(null);
+
+  // Function to handle click event and scroll to the about section
+  const scrollToPlaces = () => {
+    placesRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const openInsta = () => {
+    window.open("https://www.instagram.com/_svj97_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", "_blank");
+  };
+
+
+  const openFacebook = () => {
+    window.open("https://www.facebook.com/Tonyhawk.sachinvijay1997", "_blank");
+  };
+
+  const openSpotify = () => {
+    window.open("https://open.spotify.com/user/240pq6k706l19tpoc5ltxg913?si=elJylo5lRzeMyNfPB-i7oA", "_blank");
+  };
+
+
+  useEffect(() => {
+    const intervalId1 = setInterval(() => {
+      setCurrentPhotoIndex1((prevIndex) => (prevIndex + 1) % photos1.length);
+    }, 2000);
+
+    return () => clearInterval(intervalId1);
+    // eslint-disable-next-line
+  }, []);
+  useEffect(() => {
+    const intervalId2 = setInterval(() => {
+      setCurrentPhotoIndex2((prevIndex) => (prevIndex + 1) % photos2.length);
+    }, 2000);
+
+    return () => clearInterval(intervalId2);
+    // eslint-disable-next-line
+  }, []);
+  useEffect(() => {
+    const intervalId3 = setInterval(() => {
+      setCurrentPhotoIndex3((prevIndex) => (prevIndex + 1) % photos3.length);
+    }, 2000);
+
+    return () => clearInterval(intervalId3);
+    // eslint-disable-next-line
+  }, []);
+
+  return (
+    <Box>
+      <Box
+     
+        sx={{
+          top:0,
+          position:"sticky",
+          zIndex:999,
+          backgroundColor: "#E8AA42",
+          height: "80px",
+          padding:"10px",
+          display:"flex",
+          justifyContent:"space-between",
+          alignItems:"center"
+
+        }}
+      >
+       <img src={logo2} alt="logo" width={"70px"} height={"70px"} />
+       <Box sx={{
+        display:"flex",
+        justifyContent:"space-between",
+        width:"500px",
+        alignItems:"center",
+      
+       
+       }}>
+       <Typography sx={{
+      
+         cursor:"pointer",
+         textTransform:"uppercase",
+         fontSize:"20px"
+       }}
+       onClick={scrollToAbout}
+       >About Me</Typography>
+       <Typography sx={{
+     
+         cursor:"pointer",
+         textTransform:"uppercase",
+         fontSize:"20px"
+       }}
+       onClick={scrollToGallery}
+       >Gallery</Typography>
+       <Typography sx={{
+  
+         cursor:"pointer",
+         textTransform:"uppercase",
+         fontSize:"20px"
+       }}
+       onClick={scrollToPlaces}
+       >Places</Typography>
+       </Box>
+       <Box>
+<InstagramIcon sx={{
+  cursor:"pointer"}} onClick={openInsta} /> <LinkedInIcon/> <FacebookIcon sx={{
+    cursor:"pointer"}} onClick={openFacebook}/>  <FontAwesomeIcon style={{
+      cursor:"pointer"}} onClick={openSpotify} icon={faSpotify} size="2x"/>
+       </Box>
+      </Box>
+      <Box
+        ref={aboutRef}
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+          padding: "100px 134px 37px 134px",
+         
+        }}
+      >
+        <Box>
+          <Typography
+         
+            sx={{
+              fontSize: "34px",
+              fontWeight: 500,
+              textTransform: "uppercase",
+            }}
+          >
+            {" "}
+            sachin vijay{" "}
+          </Typography>
+          <Typography
+            sx={{
+              textAlign: "justify",
+              padding: "0px 80px 30px 0px",
+              lineHeight: "50px",
+            }}
+          >
+            Hey there! I'm Sachin Vijay, an automotive engineer with a passion
+            for traveling and living life to the fullest. Born and raised in
+            India, I chased my dreams all the way to the UK, where I completed
+            my master's . Traveling is my ultimate joy – there's nothing like
+            exploring new places and cultures. And when it comes to food, I'm
+            all in. Good food is definitely the way to my heart! I'm also a huge
+            football fan, and I dream of traveling the world, discovering new
+            adventures and flavors along the way. This website is my little
+            corner of the internet where I share my journey, passions, and
+            everything that makes me, well, me. Welcome to my world!
+          </Typography>
+        </Box>
+        <img src={img26} alt="img" width={"600px"} height={"500px"} />
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "#F8F1F1",
+          height: "500px",
+
+          padding: "20px",
+        }}
+      >
+        <Typography
+          ref={galleryRef}
+          sx={{
+            fontSize: "34px",
+            fontWeight: 500,
+            textTransform: "uppercase",
+
+            textAlign: "center",
+          }}
+        >
+          Gallery
+        </Typography>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
+          <Box
+            onMouseEnter={() =>
+              setCurrentPhotoIndex1(
+                (prevIndex) => (prevIndex + 1) % photos1.length
+              )
+            }
+            sx={{
+              backgroundImage: `url(${photos1[currentPhotoIndex1]})`,
+              width: "400px",
+              height: "400px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              transition: "background-image 0.5s ease-in-out",
+              "&:hover": {
+                opacity: 0.8,
+              },
+            }}
+          />
+          <Box
+            onMouseEnter={() =>
+              setCurrentPhotoIndex2(
+                (prevIndex) => (prevIndex + 1) % photos2.length
+              )
+            }
+            sx={{
+              backgroundImage: `url(${photos2[currentPhotoIndex2]})`,
+              width: "400px",
+              height: "400px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              transition: "background-image 0.5s ease-in-out",
+              "&:hover": {
+                opacity: 0.8,
+              },
+            }}
+          />
+          <Box
+            onMouseEnter={() =>
+              setCurrentPhotoIndex3(
+                (prevIndex) => (prevIndex + 1) % photos3.length
+              )
+            }
+            sx={{
+              backgroundImage: `url(${photos3[currentPhotoIndex3]})`,
+              width: "400px",
+              height: "400px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              transition: "background-image 0.5s ease-in-out",
+              "&:hover": {
+                opacity: 0.8,
+              },
+            }}
+          />
+        </Box>
+      </Box>
+      <Box   ref={placesRef}>travell</Box>
+    </Box>
+  );
+}
