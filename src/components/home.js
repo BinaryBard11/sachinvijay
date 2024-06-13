@@ -1,8 +1,8 @@
-import { Box, Typography,Grid } from "@mui/material";
-import React, { useEffect, useState,useRef  } from "react";
+import { Box, Typography, Grid } from "@mui/material";
+import React, { useEffect, useState, useRef } from "react";
 import img26 from "../images/img26.png";
-import img1 from "../images/img1.png";
-import img2 from "../images/img2.png";
+
+
 import img3 from "../images/img3.png";
 import img4 from "../images/img4.png";
 
@@ -13,56 +13,46 @@ import img8 from "../images/img8.png";
 import img9 from "../images/img9.png";
 import img10 from "../images/img10.png";
 import img11 from "../images/img11.png";
-import img12 from "../images/img12.png";
+
 // import logo2 from "../images/logo2.png";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSpotify } from '@fortawesome/free-brands-svg-icons';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpotify } from "@fortawesome/free-brands-svg-icons";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Home() {
-  const photos1 = [img1, img2, img3, img4];
-  const photos2 = [img5, img6, img7, img8];
-  const photos3 = [img9, img10, img11, img12];
+  const photos1 = [img10,img9, img3, img4,img5, img6, img7, img8, img10, img11];
 
   const [currentPhotoIndex1, setCurrentPhotoIndex1] = useState(0);
-  const [currentPhotoIndex2, setCurrentPhotoIndex2] = useState(0);
-  const [currentPhotoIndex3, setCurrentPhotoIndex3] = useState(0);
-
-
+  
 
   const aboutRef = useRef(null);
 
-  // Function to handle click event and scroll to the about section
-  const scrollToAbout = () => {
-    aboutRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
+
   const galleryRef = useRef(null);
 
-  // Function to handle click event and scroll to the about section
-  const scrollToGallery = () => {
-    galleryRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
+
   const placesRef = useRef(null);
 
-  // Function to handle click event and scroll to the about section
-  const scrollToPlaces = () => {
-    placesRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
-  const openInsta = () => {
-    window.open("https://www.instagram.com/_svj97_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", "_blank");
-  };
 
+  const openInsta = () => {
+    window.open(
+      "https://www.instagram.com/_svj97_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "_blank"
+    );
+  };
 
   const openFacebook = () => {
     window.open("https://www.facebook.com/Tonyhawk.sachinvijay1997", "_blank");
   };
 
   const openSpotify = () => {
-    window.open("https://open.spotify.com/user/240pq6k706l19tpoc5ltxg913?si=elJylo5lRzeMyNfPB-i7oA", "_blank");
+    window.open(
+      "https://open.spotify.com/user/240pq6k706l19tpoc5ltxg913?si=elJylo5lRzeMyNfPB-i7oA",
+      "_blank"
+    );
   };
-
 
   useEffect(() => {
     const intervalId1 = setInterval(() => {
@@ -72,77 +62,74 @@ export default function Home() {
     return () => clearInterval(intervalId1);
     // eslint-disable-next-line
   }, []);
-  useEffect(() => {
-    const intervalId2 = setInterval(() => {
-      setCurrentPhotoIndex2((prevIndex) => (prevIndex + 1) % photos2.length);
-    }, 2000);
-
-    return () => clearInterval(intervalId2);
-    // eslint-disable-next-line
-  }, []);
-  useEffect(() => {
-    const intervalId3 = setInterval(() => {
-      setCurrentPhotoIndex3((prevIndex) => (prevIndex + 1) % photos3.length);
-    }, 2000);
-
-    return () => clearInterval(intervalId3);
-    // eslint-disable-next-line
-  }, []);
-
+ 
+ 
   return (
-    <Grid  >
+    <Grid>
       <Box
-     
         sx={{
-          top:0,
-          position:"sticky",
-          zIndex:999,
+          top: 0,
+          position: "sticky",
+          zIndex: 999,
           backgroundColor: "#E8AA42",
           height: "80px",
-          padding:"10px",
-          display:"flex",
-          justifyContent:"space-between",
-          alignItems:"center"
-
+          padding: "10px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
         }}
       >
-   
-   <Typography
-         
-         sx={{
-           fontSize: "34px",
-           fontWeight: 500,
-           textTransform: "uppercase",
-           textAlign:"center"
-         }}
-       >
-         {" "}
-         sachin vijay{" "}
-       </Typography>
-      
-       <Box>
-<InstagramIcon sx={{
-  cursor:"pointer"}} onClick={openInsta} /> <LinkedInIcon/> <FacebookIcon sx={{
-    cursor:"pointer"}} onClick={openFacebook}/>  <FontAwesomeIcon style={{
-      cursor:"pointer"}} onClick={openSpotify} icon={faSpotify} size="2x"/>
-       </Box>
+        <Typography
+          sx={{
+            fontSize: "34px",
+            fontWeight: 500,
+            textTransform: "uppercase",
+            textAlign: "center",
+          }}
+        >
+          {" "}
+          sachin vijay{" "}
+        </Typography>
+
+        <Box>
+          <InstagramIcon
+            sx={{
+              cursor: "pointer",
+            }}
+            onClick={openInsta}
+          />{" "}
+          <LinkedInIcon />{" "}
+          <FacebookIcon
+            sx={{
+              cursor: "pointer",
+            }}
+            onClick={openFacebook}
+          />{" "}
+          <FontAwesomeIcon
+            style={{
+              cursor: "pointer",
+            }}
+            onClick={openSpotify}
+            icon={faSpotify}
+            size="2x"
+          />
+        </Box>
       </Box>
-      <Grid container spacing={3}
+      <Grid
+        container
+        spacing={3}
         ref={aboutRef}
         sx={{
           display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-            padding: "60px 0px 20px 30px",
+          justifyContent: "center",
+
+          padding: "0px 0px 20px 30px",
           // padding: "100px 134px 37px 134px",
-         
         }}
       >
-         <Grid  item  xs={12}md={6}>
-        <img src={img26} alt="img" width={"300px"}  />
-        </Grid>
-        <Grid item xs={12}md={6} >
-        
+        <img src={img26} alt="img" width={"400px"} />
+
+        <Grid item xs={12} md={6}>
           <Typography
             sx={{
               textAlign: "justify",
@@ -162,16 +149,16 @@ export default function Home() {
             everything that makes me, well, me. Welcome to my world!
           </Typography>
         </Grid>
-       
       </Grid>
-      <Grid container
+      <Grid
+        container
         sx={{
           backgroundColor: "#F8F1F1",
-          height: "500px",
+          // height: "500px",
 
           padding: "20px",
-          display:"flex",
-          flexDirection:"column"
+          display: "flex",
+          flexDirection: "column",
         }}
       >
         <Typography
@@ -189,8 +176,7 @@ export default function Home() {
         <Box
           sx={{
             display: "flex",
-           justifyContent:"center"
-           
+            justifyContent: "center",
           }}
         >
           <Box
@@ -205,16 +191,14 @@ export default function Home() {
               height: "400px",
               backgroundSize: "cover",
               backgroundPosition: "center",
-              transition: "background-image 0.5s ease-in-out",
               "&:hover": {
                 opacity: 0.8,
               },
             }}
           />
-       
         </Box>
       </Grid>
-      <Box   ref={placesRef}>travell</Box>
+      <Box ref={placesRef}>travell</Box>
     </Grid>
   );
 }
