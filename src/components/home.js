@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography,Grid } from "@mui/material";
 import React, { useEffect, useState,useRef  } from "react";
 import img26 from "../images/img26.png";
 import img1 from "../images/img1.png";
@@ -90,7 +90,7 @@ export default function Home() {
   }, []);
 
   return (
-    <Box>
+    <Grid  >
       <Box
      
         sx={{
@@ -106,7 +106,8 @@ export default function Home() {
 
         }}
       >
-       {/* <img src={logo2} alt="logo" width={"70px"} height={"70px"} /> */}
+   
+       <Box></Box>
        <Box sx={{
         display:"flex",
         justifyContent:"space-between",
@@ -147,17 +148,21 @@ export default function Home() {
       cursor:"pointer"}} onClick={openSpotify} icon={faSpotify} size="2x"/>
        </Box>
       </Box>
-      <Box
+      <Grid container spacing={3}
         ref={aboutRef}
         sx={{
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-between",
-          padding: "100px 134px 37px 134px",
+            padding: "60px 0px 20px 30px",
+          // padding: "100px 134px 37px 134px",
          
         }}
       >
-        <Box>
+         <Grid  item  xs={12}md={6}>
+        <img src={img26} alt="img" width={"300px"}  />
+        </Grid>
+        <Grid item xs={12}md={6} >
           <Typography
          
             sx={{
@@ -172,8 +177,8 @@ export default function Home() {
           <Typography
             sx={{
               textAlign: "justify",
-              padding: "0px 80px 30px 0px",
-              lineHeight: "50px",
+              padding: "0px 32px 30px 0px",
+              lineHeight: "27px",
             }}
           >
             Hey there! I'm Sachin Vijay, an automotive engineer with a passion
@@ -187,10 +192,10 @@ export default function Home() {
             corner of the internet where I share my journey, passions, and
             everything that makes me, well, me. Welcome to my world!
           </Typography>
-        </Box>
-        <img src={img26} alt="img" width={"600px"} height={"500px"} />
-      </Box>
-      <Box
+        </Grid>
+       
+      </Grid>
+      <Grid container
         sx={{
           backgroundColor: "#F8F1F1",
           height: "500px",
@@ -213,7 +218,7 @@ export default function Home() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: "row",
+            flexDirection: {xs:"column",md:"row"},
             justifyContent: "space-between",
           }}
         >
@@ -235,45 +240,10 @@ export default function Home() {
               },
             }}
           />
-          <Box
-            onMouseEnter={() =>
-              setCurrentPhotoIndex2(
-                (prevIndex) => (prevIndex + 1) % photos2.length
-              )
-            }
-            sx={{
-              backgroundImage: `url(${photos2[currentPhotoIndex2]})`,
-              width: "400px",
-              height: "400px",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              transition: "background-image 0.5s ease-in-out",
-              "&:hover": {
-                opacity: 0.8,
-              },
-            }}
-          />
-          <Box
-            onMouseEnter={() =>
-              setCurrentPhotoIndex3(
-                (prevIndex) => (prevIndex + 1) % photos3.length
-              )
-            }
-            sx={{
-              backgroundImage: `url(${photos3[currentPhotoIndex3]})`,
-              width: "400px",
-              height: "400px",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              transition: "background-image 0.5s ease-in-out",
-              "&:hover": {
-                opacity: 0.8,
-              },
-            }}
-          />
+       
         </Box>
-      </Box>
+      </Grid>
       <Box   ref={placesRef}>travell</Box>
-    </Box>
+    </Grid>
   );
 }
