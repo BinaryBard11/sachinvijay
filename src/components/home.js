@@ -127,7 +127,7 @@ export default function Home() {
           // padding: "100px 134px 37px 134px",
         }}
       >
-        <img src={img26} alt="img" width={"400px"} />
+        <img src={img26} alt="img" width={"300px"} />
 
         <Grid item xs={12} md={6}>
           <Typography
@@ -187,8 +187,8 @@ export default function Home() {
             }
             sx={{
               backgroundImage: `url(${photos1[currentPhotoIndex1]})`,
-              width: "400px",
-              height: "400px",
+              width: "300px",
+              height: "300px",
               backgroundSize: "cover",
               backgroundPosition: "center",
               "&:hover": {
