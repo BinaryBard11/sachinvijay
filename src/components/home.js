@@ -170,6 +170,8 @@ export default function Home() {
           height: "500px",
 
           padding: "20px",
+          display:"flex",
+          flexDirection:"column"
         }}
       >
         <Typography
@@ -187,8 +189,8 @@ export default function Home() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: {xs:"column",md:"row"},
-            justifyContent: "space-between",
+           justifyContent:"center"
+           
           }}
         >
           <Box
