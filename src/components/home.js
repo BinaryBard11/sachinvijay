@@ -107,40 +107,19 @@ export default function Home() {
         }}
       >
    
-       <Box></Box>
-       <Box sx={{
-        display:"flex",
-        justifyContent:"space-between",
-        width:"500px",
-        alignItems:"center",
+   <Typography
+         
+         sx={{
+           fontSize: "34px",
+           fontWeight: 500,
+           textTransform: "uppercase",
+           textAlign:"center"
+         }}
+       >
+         {" "}
+         sachin vijay{" "}
+       </Typography>
       
-       
-       }}>
-       <Typography sx={{
-      
-         cursor:"pointer",
-         textTransform:"uppercase",
-         fontSize:"20px"
-       }}
-       onClick={scrollToAbout}
-       >About Me</Typography>
-       <Typography sx={{
-     
-         cursor:"pointer",
-         textTransform:"uppercase",
-         fontSize:"20px"
-       }}
-       onClick={scrollToGallery}
-       >Gallery</Typography>
-       <Typography sx={{
-  
-         cursor:"pointer",
-         textTransform:"uppercase",
-         fontSize:"20px"
-       }}
-       onClick={scrollToPlaces}
-       >Places</Typography>
-       </Box>
        <Box>
 <InstagramIcon sx={{
   cursor:"pointer"}} onClick={openInsta} /> <LinkedInIcon/> <FacebookIcon sx={{
@@ -163,17 +142,7 @@ export default function Home() {
         <img src={img26} alt="img" width={"300px"}  />
         </Grid>
         <Grid item xs={12}md={6} >
-          <Typography
-         
-            sx={{
-              fontSize: "34px",
-              fontWeight: 500,
-              textTransform: "uppercase",
-            }}
-          >
-            {" "}
-            sachin vijay{" "}
-          </Typography>
+        
           <Typography
             sx={{
               textAlign: "justify",
