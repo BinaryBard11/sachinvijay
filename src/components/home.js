@@ -244,14 +244,15 @@ const [dailogeTitle,setDailogeTitle]=useState()
         <Box
           sx={{
             display: "grid",
+            
             // justifyContent:"center",
             // alignContent:"center",
             // columnGap: { xs: "2rem", md: "1rem", lg: "2rem", xl: "3rem" },
             // rowGap: { xs: "2rem", lg: "1rem" },
             gridTemplateColumns: {
-              xs: "repeat(4, 1fr)",
-              sm: "repeat(2, 1fr)",
-              lg: "repeat(3, 1fr)",
+              xs: "repeat(4, 50px)",
+              // sm: "repeat(2, 1fr)",
+              // lg: "repeat(3, 1fr)",
             },
             // gridTemplateRows: "repeat(1, 1fr)",
           }}
