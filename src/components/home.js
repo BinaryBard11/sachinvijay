@@ -71,9 +71,9 @@ export default function Home() {
     );
   };
   const [open, setOpen] = React.useState(false);
-const [dailogeTitle,setDailogeTitle]=useState()
+  const [dailogeTitle, setDailogeTitle] = useState();
   const handleClickOpen = (label) => {
-    setDailogeTitle(label)
+    setDailogeTitle(label);
     setOpen(true);
   };
   const handleClose = () => {
@@ -237,48 +237,31 @@ const [dailogeTitle,setDailogeTitle]=useState()
             textTransform: "uppercase",
 
             textAlign: "center",
-            marginBottom:"10px"
+           
           }}
         >
           Travel Dairy
         </Typography>
-        <Grid container spacing={{ xs: 2, md: 3 }} 
-          // sx={{
-          //   display: "grid",
-            
-          //   // justifyContent:"center",
-          //   // alignContent:"center",
-          //   // columnGap: { xs: "2rem", md: "1rem", lg: "2rem", xl: "3rem" },
-          //   // rowGap: { xs: "2rem", lg: "1rem" },
-          //   // gridTemplateColumns: {
-          //   //   xs: "repeat(4, 76px)",
-          //   //   sm: "repeat(2, 1fr)",
-          //   //   lg: "repeat(3, 1fr)",
-          //   // },
-          //   // gridTemplateRows: "repeat(1, 76px)",
-          // }}
-        >
+        <Grid container spacing={{ xs: 2, md: 3 }} sx={{
+            display: "flex",
+            justifyContent: "center",
+            padding:'20px',
+            marginLeft:"0px!important",
+            marginTop:"0px!important",
+
+
+          }}>
           {avatarData.map((item) => (
-          <Grid xs={3} sm={4} md={4}
-          key={item?.id}
-            sx={{
-              // display: "flex",
-              // flexDirection: "column",
-              // justifyContent: "center",
-              // alignContent: "center",
-              // width: "fit-content",
-            }}
-          >
-            <Avatar
-              alt="ss"
-               src={item?.img}
-               onClick={() => handleClickOpen(item?.label)}
-              sx={{ width: 56, height: 56, cursor: "pointer" }}
-            />
-            <Typography>{item?.label}</Typography>
-          </Grid>
-         ))}
-         
+            <Grid xs={3} sm={4} md={4} key={item?.id}>
+              <Avatar
+                alt="ss"
+                src={item?.img}
+                onClick={() => handleClickOpen(item?.label)}
+                sx={{ width: 56, height: 56, cursor: "pointer" }}
+              />
+              <Typography>{item?.label}</Typography>
+            </Grid>
+          ))}
         </Grid>
       </Grid>
       <Dialog
@@ -288,7 +271,7 @@ const [dailogeTitle,setDailogeTitle]=useState()
         open={open}
       >
         <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-        {dailogeTitle?dailogeTitle:""}
+          {dailogeTitle ? dailogeTitle : ""}
         </DialogTitle>
         <IconButton
           aria-label="close"
@@ -309,11 +292,15 @@ const [dailogeTitle,setDailogeTitle]=useState()
           dividers
         >
           <ImageList
-            sx={{ width: 300, height: 450, overflowY: "scroll",
-            overflowX: "none",
-            "&::-webkit-scrollbar": {
-              display: "none",
-            }, }}
+            sx={{
+              width: 300,
+              height: 450,
+              overflowY: "scroll",
+              overflowX: "none",
+              "&::-webkit-scrollbar": {
+                display: "none",
+              },
+            }}
             variant="quilted"
             cols={4}
             rowHeight={121}
@@ -339,38 +326,36 @@ const [dailogeTitle,setDailogeTitle]=useState()
 }
 const avatarData = [
   {
-    id:1,
-    label:"Morocco",
+    id: 1,
+    label: "Morocco",
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
   },
   {
-    id:2,
-    label:"Scotland",
+    id: 2,
+    label: "Scotland",
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
   },
   {
-    id:3,
-    label:"Turkey",
+    id: 3,
+    label: "Turkey",
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
   },
   {
-    id:4,
-    label:"Brighton",
+    id: 4,
+    label: "Brighton",
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
   },
   {
-    id:5,
-    label:"Wales",
+    id: 5,
+    label: "Wales",
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
   },
- 
+
   {
-    id:8,
-    label:"London",
+    id: 8,
+    label: "London",
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
   },
- 
- 
 ];
 const itemData = [
   {
