@@ -244,8 +244,8 @@ const [dailogeTitle,setDailogeTitle]=useState()
         <Box
           sx={{
             display: "grid",
-            justifyContent:"center",
-            alignContent:"center",
+            // justifyContent:"center",
+            // alignContent:"center",
             // columnGap: { xs: "2rem", md: "1rem", lg: "2rem", xl: "3rem" },
             // rowGap: { xs: "2rem", lg: "1rem" },
             gridTemplateColumns: {
@@ -253,7 +253,7 @@ const [dailogeTitle,setDailogeTitle]=useState()
               sm: "repeat(2, 1fr)",
               lg: "repeat(3, 1fr)",
             },
-            gridTemplateRows: "repeat(1, 1fr)",
+            // gridTemplateRows: "repeat(1, 1fr)",
           }}
         >
           {avatarData.map((item) => (
