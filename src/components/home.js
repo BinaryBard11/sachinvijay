@@ -237,35 +237,36 @@ const [dailogeTitle,setDailogeTitle]=useState()
             textTransform: "uppercase",
 
             textAlign: "center",
+            marginBottom:"10px"
           }}
         >
           Travel Dairy
         </Typography>
-        <Box
-          sx={{
-            display: "grid",
+        <Grid container spacing={{ xs: 2, md: 3 }} 
+          // sx={{
+          //   display: "grid",
             
-            // justifyContent:"center",
-            // alignContent:"center",
-            // columnGap: { xs: "2rem", md: "1rem", lg: "2rem", xl: "3rem" },
-            // rowGap: { xs: "2rem", lg: "1rem" },
-            gridTemplateColumns: {
-              xs: "repeat(4, 76px)",
-              sm: "repeat(2, 1fr)",
-              lg: "repeat(3, 1fr)",
-            },
-            gridTemplateRows: "repeat(1, 76px)",
-          }}
+          //   // justifyContent:"center",
+          //   // alignContent:"center",
+          //   // columnGap: { xs: "2rem", md: "1rem", lg: "2rem", xl: "3rem" },
+          //   // rowGap: { xs: "2rem", lg: "1rem" },
+          //   // gridTemplateColumns: {
+          //   //   xs: "repeat(4, 76px)",
+          //   //   sm: "repeat(2, 1fr)",
+          //   //   lg: "repeat(3, 1fr)",
+          //   // },
+          //   // gridTemplateRows: "repeat(1, 76px)",
+          // }}
         >
           {avatarData.map((item) => (
-          <Box
+          <Grid xs={3} sm={4} md={4}
           key={item?.id}
             sx={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignContent: "center",
-              width: "fit-content",
+              // display: "flex",
+              // flexDirection: "column",
+              // justifyContent: "center",
+              // alignContent: "center",
+              // width: "fit-content",
             }}
           >
             <Avatar
@@ -274,11 +275,11 @@ const [dailogeTitle,setDailogeTitle]=useState()
                onClick={() => handleClickOpen(item?.label)}
               sx={{ width: 56, height: 56, cursor: "pointer" }}
             />
-            <Typography sx={{ textAlign: "center" }}>{item?.label}</Typography>
-          </Box>
+            <Typography>{item?.label}</Typography>
+          </Grid>
          ))}
          
-        </Box>
+        </Grid>
       </Grid>
       <Dialog
         maxWidth="xl"
