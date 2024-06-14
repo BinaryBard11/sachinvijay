@@ -254,7 +254,7 @@ const [dailogeTitle,setDailogeTitle]=useState()
               sm: "repeat(2, 1fr)",
               lg: "repeat(3, 1fr)",
             },
-            // gridTemplateRows: "repeat(1, 1fr)",
+            gridTemplateRows: "repeat(1, 76px)",
           }}
         >
           {avatarData.map((item) => (
