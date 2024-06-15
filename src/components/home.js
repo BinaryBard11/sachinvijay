@@ -25,8 +25,9 @@ function srcset(image, size, rows = 1, cols = 1) {
 }
 
 export default function Home() {
-  const photos1 = ["https://lh3.googleusercontent.com/drive-viewer/AKGpihbraV5S8KH9n1hplkaOUW9NRAWB1YpaaIuuREiR1KpY-RAKCXguahpUjCVaK60NNOa7FzkomOWU2EbyBcX2Pi7yvpFRzNFxkkg=s1600-rw-v1",
-  "https://lh3.googleusercontent.com/drive-viewer/AKGpihbAGceycxOoWKfnrEg2nG51tNp20cv51BHSxkBsQphqUe76v3ZgSZFOnQAZtWJ-z1G2EUh_ggQ-NxkBY-7PKC0nJIjeREx89ME=s1600-rw-v1",
+  const photos1 = [
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihbraV5S8KH9n1hplkaOUW9NRAWB1YpaaIuuREiR1KpY-RAKCXguahpUjCVaK60NNOa7FzkomOWU2EbyBcX2Pi7yvpFRzNFxkkg=s1600-rw-v1",
+
     "https://lh3.googleusercontent.com/drive-viewer/AKGpihZpaWi_KG6aPmftST481jCxENW95auDOu7AZn7GPM4NfdsDs1_k8XCFbi24e_DG2cSmXOhCEG9jR9HAGHHFsdgfbMw0ej2d1so=s1600-rw-v1",
     "https://lh3.googleusercontent.com/drive-viewer/AKGpihaN-JJaWko_gWb00wTC6L2WJj9TXumEdFjoQ27J1b0O3tXYuW3z70dcGVJFhitsDEZG34qtAXZu6bW4PNeiJ9wemMkgwO_xpys=s1600-rw-v1",
     "https://lh3.googleusercontent.com/drive-viewer/AKGpihYsasXO-ROcIBGi90-yjsH7cREyANW9vJcC8LjkG7RKh-kbqbKwjWr2w_dtwm8i4w3FV8T7mEJ1DnRWYJiOQ3atXULoKl4EIHY=s1600-rw-v1",
@@ -75,11 +76,11 @@ export default function Home() {
   const itemData =
     dailogeTitle === "Morocco"
       ? [
-        {
-          img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbgPheqV5RbvtE3SNXNBSSde2vDvUBFpyWBBZZpnxwh96-SjZdiuMf2hE7nZPqi2ZyA4JHogflknCigAhRvqylXWJmvnB49Sxc=s1600-rw-v1",
-          rows: 2,
-          cols: 2,
-        },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbgPheqV5RbvtE3SNXNBSSde2vDvUBFpyWBBZZpnxwh96-SjZdiuMf2hE7nZPqi2ZyA4JHogflknCigAhRvqylXWJmvnB49Sxc=s1600-rw-v1",
+            rows: 2,
+            cols: 2,
+          },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbXQH58PdiDsz4fLgTn11bFPFqIopFNd_chRFJEyQVbPolQm2N7vM-c-QIHj2w5jrLvFqrCwpaOZ0sBHPFiid2tn_IAlXKfcw=s1600-rw-v1",
             rows: 1,
@@ -171,13 +172,13 @@ export default function Home() {
             rows: 2,
             cols: 2,
           },
-         
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbLKjglRSIeJtW5CAU9tfecTi_YFQD_ALSad-NVy_ZV5E4qDqJ3BHb79nRBlXyji8zK5eT5sNHP-f0uDsWpaeJ_o5_hbtxogEo=s1600-rw-v1",
             rows: 2,
             cols: 2,
           },
-         
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbi35p8pRWhFB6fY44payz2-xlriwr8Mawn3qsC08h2q2anUz5wH5zDz4iKKjQ5Kh6pZIWmiVuZFgtbsavWcCZim0CbDsabZrI=s1600-rw-v1",
             rows: 2,
@@ -206,9 +207,7 @@ export default function Home() {
             rows: 3,
             cols: 4,
           },
-        
-        
-         
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaEIP42xpOZhrHPdNtq8JKaBCWBlK5JED4oEkP4vaeDZ44IycuPg2A7EQucSELz5GZOJDt-lOGbUoq3Fkrob7aJQ_we9hDcyAs=s1600-rw-v1",
             rows: 2,
@@ -219,7 +218,6 @@ export default function Home() {
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbaNr1nVIVl5fmCiVEtwqzB5XOWC_C36AR6sMYOuOrGjbYEBe_Kx1AYjTej20IpqqyMJjKumPUbHCLQqrEVfKgq-U9-R8ohXIs=s1600-rw-v1",
-
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha3LXqgsFCSeNosiozdkSZ52pvwfLhUyJRlsLV97KgO2AHY__USNHqVxr3rIkMgqCoUlGZxqy0wBZd8DsYNNqgMwURDacbw8l4=s1600-rw-v1",
@@ -233,12 +231,10 @@ export default function Home() {
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYhwTKyR-XYdhrDn_DAb45ucXG4ZepOnK_AdIoxdkD8g643Hbwu-68jELSpoNMwf8GXc-kDHRQqsY5myXBVggLwyUP8N-IHEw=s1600-rw-v1",
-          
           },
-          
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZEX7eQHOTro-Hv26KIzNCbG8_fVAJNQIoI3uo6aOf8Avhmf7qMtsL85087DxuzGE19E0j80YhxcDCqPGFdE_QXq2u1tc_x1ys=s1600-rw-v1",
-            
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYfb_ZPEUFYuWUasOOSPLVdcMILxITRwOXNb7vIdxYh14j2v3cWLVTonSb0F7UOY8C-CMstimFEbN2PHikMvE8c0bCLU-ithCg=s1600-rw-v1",
@@ -275,13 +271,11 @@ export default function Home() {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaEKgv9cHHaFz_8W0gNqcZGrx8zuH1fA9Mdqms8heZgtYuiiDCVYsWPeUaGqX4aqpWyjJQJBGyAAym1EBdSdnwfwFpi3c7BUQ=s1600-rw-v1",
             rows: 2,
             cols: 2,
-    
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZvQp3_6aTQAMEujZTkU3r4zeDcpC3EHBKSOa6HLH1kZaFO-KCFKlQalV4KYdhDC8qgIk3OCZMzlQ4U85m3I6TGp9KJTvyIiuE=s1600-rw-v1",
             rows: 2,
             cols: 2,
-            
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaXUBQfhBq16cQ3wCVMTQDWg-Dputn0YhVTG1bLgb70Ic7z2-fZMM46-YK6p35Kir35o7HELJ76QbE-snrqwAWLDda2CuJtMQ=s1600-rw-v1",
@@ -291,10 +285,8 @@ export default function Home() {
         ]
       : dailogeTitle === "Turkey"
       ? [
-       
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ0B776bkis3SmPyiOd6ad0hfmNHPsCjFd2bSoQcJQVUwNJ1Hs5ulloju4SYBgvu0oS1vn9hLFgkLaB5D9T1uV7ONvdBGfil5w=s1600-rw-v1",
-   
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZz029fx6Jj_AJB67kTnZS5bFfudoNvg-NHKPBEVxrskQrtw-D-m1B9E0SDwCPtpqULegsPJMD2rqAo_uVF_oTbnGQwnMWGuQ=s1600-rw-v117",
@@ -323,25 +315,20 @@ export default function Home() {
 
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY5r3qkPiYJloOyr387TdzReOiJz3eegCFU4obE_akk7GgcC8mkrBpLCbGY7FegFCC_DYPoY7jMGfRTq4rwQXX6IptE9uY-cQ=s1600-rw-v1",
-           
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbXfba9OlyqQcJNPeUYuxOfxwjgo0PezqLQASTI5cAZKFsN9QEzoIrWKwNnLRgLoUP1n3OomSWsIDgrcwcYMEEhuM6GgTtIrQ=s1600-rw-v1",
             rows: 2,
             cols: 1,
-            
-           
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihayx3DFG5B-ESg6hI8bBKvNUIEsDdK0rB9bbXj_nFm1Gco6nuWT_U77pC2LkIIx_U2SVoVa9NIp-O6cXLzsiRBLLAhYrSKxLPY=s1600-rw-v1",
             rows: 2,
             cols: 2,
-            
           },
 
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbk2m_dePgvGBbz1tvJeVN0DGbVK066eAGlQqJJ7W6HoMLoW4GL59D4iPsWRxZru3aG10R-sdjRn6Z_2Z1RbMRD7glEYKzGWno=s1600-rw-v1",
-            
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha5QFRL0dJxp0GvHIi640yYQkYRXpgnNVgL56WiMOqhCRN1sOmhCNAPa5WyYfS5ly7tod1DcIQ-f4llMKDkFLGQEnVFRtqtuG8=s1600-rw-v1",
@@ -353,7 +340,7 @@ export default function Home() {
             rows: 2,
             cols: 2,
           },
-        
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbeUhgwEtA4vIRN0Sukqq1GRivmli-t5t2nw-D9ynVFeAXA0ZDNn2JwVw0PZBmDBuTIWoqy2OJQ8G_OL4GYyBi2wMUtQ04DlPo=s1600-rw-v1",
             rows: 3,
@@ -468,13 +455,12 @@ export default function Home() {
             rows: 2,
             cols: 2,
           },
-         
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbmqJs_tT79jNha1N9EeDhAA32pbNqsAwXgNERzhUXFowGDdEocAWG2bfXe0ilAJD1YlS4ioZJvvrT77MCa4UGEzOEiEt6Cuck=s1600-rw-v1",
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYhMDnlvvPOlGh-FldyXt1B1FYYnu6TC0FxLacXwRbfkaxi5Ap7id4Ult56yjch5D8rthPYM2-WVOP6tK1J7DCPb06IS1zr0Q=s1600-rw-v1",
-           
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaX7HV0SffpF9rcy4qdO-s_NILNzGQr5x8MXee7t9caRc35uPpkP_hh-nhsWOGNkAeAspvKnkSubWPXxfTDpinFdKdcudtGVA=s1600-rw-v1",
@@ -657,7 +643,6 @@ export default function Home() {
             alignContent: { xs: "none", md: "center" },
 
             textAlign: "center",
-       
           }}
         >
           Photo Gallery
@@ -765,7 +750,7 @@ export default function Home() {
         >
           <ImageList
             sx={{
-              width: 300,
+              width: 250,
               height: 450,
               overflowY: "scroll",
               overflowX: "none",
