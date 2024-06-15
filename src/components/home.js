@@ -1,19 +1,7 @@
 import { Box, Typography, Grid, Avatar } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import img26 from "../images/img26.png";
-import img27 from "../images/img27.PNG";
-import img3 from "../images/img3.png";
-import img4 from "../images/img4.png";
 
-import img5 from "../images/img5.png";
-import img6 from "../images/img6.png";
-import img7 from "../images/img7.png";
-import img8 from "../images/img8.png";
-import img9 from "../images/img9.png";
-import img10 from "../images/img10.png";
-import img11 from "../images/img11.png";
 
-// import logo2 from "../images/logo2.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -39,17 +27,17 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 export default function Home() {
   const photos1 = [
-    img10,
-    img9,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img10,
-    img11,
-    img27,
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihZpaWi_KG6aPmftST481jCxENW95auDOu7AZn7GPM4NfdsDs1_k8XCFbi24e_DG2cSmXOhCEG9jR9HAGHHFsdgfbMw0ej2d1so=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihaN-JJaWko_gWb00wTC6L2WJj9TXumEdFjoQ27J1b0O3tXYuW3z70dcGVJFhitsDEZG34qtAXZu6bW4PNeiJ9wemMkgwO_xpys=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihYsasXO-ROcIBGi90-yjsH7cREyANW9vJcC8LjkG7RKh-kbqbKwjWr2w_dtwm8i4w3FV8T7mEJ1DnRWYJiOQ3atXULoKl4EIHY=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihb3xWW8FWQk3AnARrizEskpVfK-xKoeTTVAephxuZgovLAb7-ojbmABudu_4F0EY8BbsG7hL-714WSi-4P2gsL6C6ecHye6Bw=s2560",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihbN_9D6_SVpwHrv4NrM4xjvF-o7MOjTBrkODBXLASeFsrpx5_2qNe7y5Eqf8CYrvYHKm2PBWvAjf_x5ymYlBIZ3iN3SULbmp5g=s2560",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihaAtIOnzNuyPyNC_wLLyKiMixDtYhkMlqDERWX2gL55OdocSSCw_40H6gBOQliKrzWv5L0hkfklEYS6fDypxsJ7CeZlXh_-bQ=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihbEhFrZHtZRneJ_z80FqZI4LDRLlmW26rJFdK1UqTCYh4EDBiICAuZCtJAkZNWcYf9aTOBTTSPKdcEEuAQnGOzYC2pz0nIo6w=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihaKIC9ajFKFyv3upBIRDiY0DzhY7k7P8hzKERv7sKVPktogMJqvSjvPyVY226g6ut7aM72P5WLlQxrrlLeP8jTVW8R-7EMSeJ4=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihZpaWi_KG6aPmftST481jCxENW95auDOu7AZn7GPM4NfdsDs1_k8XCFbi24e_DG2cSmXOhCEG9jR9HAGHHFsdgfbMw0ej2d1so=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihbHI65EEbl5_MHkDoT-j_KQcBWAW4iX-9XwhdvBf0mhURuHTAFxuhckz3LDaPbKXsyvbgo1d3_FyHCfk65-cGblMn19VIO1K7E=s1600-rw-v1",
+    "https://lh3.googleusercontent.com/drive-viewer/AKGpihaV-ylZYB7EuXxAoMi2ucRuf1SYKvhysQPZJ5DeeJ1b_wKcXa36d_Mtvl2OvvkdzzhityIhiZRe8PhQ5X6luU03jkh1JadBEw=s1600-rw-v1",
   ];
 
   const [currentPhotoIndex1, setCurrentPhotoIndex1] = useState(0);
@@ -386,7 +374,7 @@ export default function Home() {
           // padding: "100px 134px 37px 134px",
         }}
       >
-        <img src={img26} alt="img" width={"300px"} />
+        <img src={"https://lh3.googleusercontent.com/drive-viewer/AKGpihanS8OjjgJGCjq3dReVNScAhyxQQq_b-iazvlbVVbaicqPZVo-KV0bhl9F31-pB3j9vsttXMI70wLKDSbvjjj2xDQPZW59s8bg=s1600-rw-v1"} alt="img" width={"300px"} />
 
         <Grid item xs={12} md={6}>
           <Typography
