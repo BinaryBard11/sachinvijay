@@ -600,6 +600,9 @@ export default function Home() {
           }
           alt="img"
           width={"350px"}
+          style={{
+            borderRadius:"30px"
+          }}
         />
 
         <Grid item xs={12} md={6}>
@@ -665,6 +668,7 @@ export default function Home() {
               height: "300px",
               backgroundSize: "cover",
               backgroundPosition: "center",
+              borderRadius:"30px",
               "&:hover": {
                 opacity: 0.8,
               },
