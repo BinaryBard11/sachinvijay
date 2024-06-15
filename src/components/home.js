@@ -43,19 +43,17 @@ export default function Home() {
 
   const openInsta = () => {
     window.open(
-      "https://www.instagram.com/_svj97_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      "_blank"
+      "https://www.instagram.com/_svj97_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     );
   };
 
   const openFacebook = () => {
-    window.open("https://www.facebook.com/Tonyhawk.sachinvijay1997", "_blank");
+    window.open("https://www.facebook.com/Tonyhawk.sachinvijay1997");
   };
 
   const openSpotify = () => {
     window.open(
-      "https://open.spotify.com/user/240pq6k706l19tpoc5ltxg913?si=elJylo5lRzeMyNfPB-i7oA",
-      "_blank"
+      "https://open.spotify.com/user/240pq6k706l19tpoc5ltxg913?si=elJylo5lRzeMyNfPB-i7oA"
     );
   };
   const [open, setOpen] = React.useState(false);
