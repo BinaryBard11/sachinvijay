@@ -279,8 +279,8 @@ export default function Home() {
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaXUBQfhBq16cQ3wCVMTQDWg-Dputn0YhVTG1bLgb70Ic7z2-fZMM46-YK6p35Kir35o7HELJ76QbE-snrqwAWLDda2CuJtMQ=s1600-rw-v1",
-            rows: 2,
-            cols: 2,
+            rows: 4,
+            cols: 4,
           },
         ]
       : dailogeTitle === "Turkey"
@@ -590,7 +590,7 @@ export default function Home() {
           display: "flex",
           justifyContent: "center",
 
-          padding: "60px 0px 20px 30px",
+          padding: "80px 0px 20px 30px",
           // padding: "100px 134px 37px 134px",
         }}
       >
