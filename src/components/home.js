@@ -570,7 +570,7 @@ export default function Home() {
           }}
         >
           {avatarData.map((item) => (
-            <Grid xs={3} sm={4} md={4} key={item?.id}>
+            <Grid xs={3}  md={1} key={item?.id}>
               <Avatar
                 alt="ss"
                 src={item?.img}
