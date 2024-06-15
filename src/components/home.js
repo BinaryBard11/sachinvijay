@@ -495,10 +495,10 @@ export default function Home() {
         sx={{
           backgroundColor: "#F8F1F1",
           // height: "500px",
-
-          padding: "20px",
+          gap: "45px",
+          padding: { xs: "20px", md: "20px 200px 20px 19px" },
           display: "flex",
-          flexDirection: "column",
+          flexDirection: { xs: "column", md: "row-reverse" },
         }}
       >
         <Typography
@@ -506,11 +506,13 @@ export default function Home() {
             fontSize: "34px",
             fontWeight: 500,
             textTransform: "uppercase",
+            justifyContent: { xs: "none", md: "center" },
+            alignContent: { xs: "none", md: "center" },
 
             textAlign: "center",
           }}
         >
-          Gallery
+          Photo Gallery
         </Typography>
         <Box
           sx={{
@@ -560,7 +562,7 @@ export default function Home() {
         </Typography>
         <Grid
           container
-          spacing={{ xs: 2, md: 3 }}
+          spacing={{ xs: 2 }}
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -570,7 +572,7 @@ export default function Home() {
           }}
         >
           {avatarData.map((item) => (
-            <Grid xs={3}  md={1} key={item?.id}>
+            <Grid xs={3} md={1} key={item?.id}>
               <Avatar
                 alt="ss"
                 src={item?.img}
