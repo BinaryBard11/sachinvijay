@@ -1,7 +1,7 @@
 import { Box, Typography, Grid, Avatar } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import img26 from "../images/img26.png";
-
+import img27 from "../images/img27.PNG";
 import img3 from "../images/img3.png";
 import img4 from "../images/img4.png";
 
@@ -32,7 +32,11 @@ import mo18 from "../images/mo18.PNG";
 import mo19 from "../images/mo19.PNG";
 import mo20 from "../images/mo20.PNG";
 import mo21 from "../images/mo21.PNG";
-
+import mo22 from "../images/mo22.PNG";
+import mo23 from "../images/mo23.PNG";
+import mo24 from "../images/mo24.PNG";
+import mo25 from "../images/mo25.PNG";
+import mo26 from "../images/mo26.PNG";
 import sc1 from "../images/sc1.PNG";
 import sc2 from "../images/sc2.PNG";
 import sc3 from "../images/sc3.PNG";
@@ -55,6 +59,26 @@ import sc19 from "../images/sc19.PNG";
 import sc20 from "../images/sc20.PNG";
 import sc21 from "../images/sc21.PNG";
 import sc22 from "../images/sc22.PNG";
+
+
+import  t19 from "../images/t19.PNG";
+import  t1 from "../images/t1.PNG";
+import  t2 from "../images/t2.PNG";
+import  t3 from "../images/t3.PNG";
+import  t4 from "../images/t4.PNG";
+import  t5 from "../images/t5.PNG";
+import  t6 from "../images/t6.PNG";
+import  t7 from "../images/t7.PNG";
+import  t8 from "../images/t8.PNG";
+import  t9 from "../images/t9.PNG";
+import  t10 from "../images/t11.PNG";
+import  t12 from "../images/t12.PNG";
+import  t13 from "../images/t13.PNG";
+import  t14 from "../images/t14.PNG";
+import  t15 from "../images/t15.PNG";
+import  t16 from "../images/t16.PNG";
+import  t17 from "../images/t17.PNG";
+import  t18 from "../images/t18.PNG";
 // import logo2 from "../images/logo2.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -91,6 +115,7 @@ export default function Home() {
     img8,
     img10,
     img11,
+    img27
   ];
 
   const [currentPhotoIndex1, setCurrentPhotoIndex1] = useState(0);
@@ -126,46 +151,46 @@ export default function Home() {
     dailogeTitle === "Morocco"
       ? [
           {
-            img: mo2,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbXQH58PdiDsz4fLgTn11bFPFqIopFNd_chRFJEyQVbPolQm2N7vM-c-QIHj2w5jrLvFqrCwpaOZ0sBHPFiid2tn_IAlXKfcw=s1600-rw-v1",
             rows: 2,
             cols: 2,
           },
           {
-            img: mo5,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYRYcUofl7nebjcIdgNqH7ujLObxJLJ2S85weoAwzYgWm5SoeACI1Tc21pCO_eDf30GvGnILVeN3dJN6YlHBSmrRmS6EhWHmhE=s1600-rw-v1",
             rows: 2,
             cols: 2,
           },
           {
-            img: mo3,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihadIiQ2Pf-yOlH6hJP3ScE0jkE_jpkJn3ii7ifkcaACwgR_2ykWL6EVT76vUCqNSrzq8JUGCZNYf8RoKqMH-_f-JvlVj_11_Cw=s1600-rw-v1",
             rows: 3,
             cols: 3,
           },
           {
-            img: mo6,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZmZb6qvVvMvwP8EVwYaK1yiOg5cFFPXJOUleVF9adszMHw7G_-aFnHJXd8BDeKYJ1vaU5f8woRtKWMTYRx8ik0Jg9d4HPElWs=s1600-rw-v1",
           },
           {
-            img: mo7,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYqUqHDwOYOb1P6bzE3P5RIsL_0PzZC8Pp3LI6SnKq1C6aRgDH9D1_ZNugDI4bIlBv79QGiJB1kYSugXfisPayJzl3zsGRigho=s1600-rw-v1",
           },
           {
-            img: mo8,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYtC8fQd21aAHTWR9sQ4n_XsjtL7NT_1QZlL8A57Asz5RL0CySnI9a38TvTvYwMscdLWImkNBxCZb0QCWjJWvuv7pxgxgAPJ5I=s1600-rw-v1",
           },
           {
-            img: mo9,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY8gVhlDlNWsSNBJv9SkockfQFfyS5Nh84LkHHW9snfw1kvsiPDt1Z3bNv6a_LAC9sF6lxWOVXJMDwbS3Tc5Fkqa7IF40YxlQ=s1600-rw-v1",
           },
           {
-            img: mo10,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYJ_Kn8__olub2LiXjX7ses1qte_IPWWKNv2D64lgOx77f0gYKvxB2CeatA0EY3hH-XkXSGZYAcNrM_YpSVmYf1e1k0CfApH8c=s1600-rw-v1",
           },
           {
-            img: mo11,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha0g4wkRAmKhOUhii_uR43LfPu0YduDd0jkgKy6v-M07Q3luuBT_IRoJjWfwiMvDyAUsV8vShLevEI9uii1UA43htWZhoxyVXc=s1600-rw-v1",
           },
           {
-            img: mo12,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYyd1d3bPQ42VA0_TqMjvcMiUvx-ApnzdNcjpVWkzAyeR9s0VlCkfHCJ9D0u6u42IbsJDUfXjPBttjwvTqrCJJvoDJnh4Z2rb8=s1600-rw-v1",
           },
           {
-            img: mo13,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbX5ISbItEnuq1rY6adJ6f8JUBMAzgbLYRH4pn7tPgzr3J61UhmkZKHXpoPhR4ImUJwTRuGkXJgk184eRXfq4DHBLjgUud9NA=s1600-rw-v1",
           },
           {
-            img: mo14,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYhV9peRQ4Z--qYizkpfA0lBpveyIMZVyPF8Qg47UzCAetxZRwYTrB59s0eAVCTC2ClpFk__Zg-RmD-nEcworNfhlcmni8sWw=s1600-rw-v1",
           },
 
           {
@@ -185,6 +210,21 @@ export default function Home() {
           },
           {
             img: mo21,
+          },
+          {
+            img: mo22,
+          },
+          {
+            img: mo23,
+          },
+          {
+            img: mo24,
+          },
+          {
+            img: mo25,
+          },
+          {
+            img: mo26,
           },
         ]
       : "Scotland"
@@ -255,7 +295,63 @@ export default function Home() {
             img: sc22,
           },
         ]
-      : [];
+      :"Turkey"?[ {
+        img: t19,
+        rows: 2,
+        cols: 2,
+      }, {
+        img: t1,
+      
+      }, {
+        img: t2,
+      
+      },
+      {
+        img: t3,
+      
+      }, {
+        img: t4,
+      
+      }, {
+        img: t5,
+      
+      }, {
+        img: t6,
+      
+      }, {
+        img: t7,
+      
+      }, {
+        img: t8,
+      
+      }, {
+        img: t9,
+      
+      }, {
+        img: t10,
+      
+      }, {
+        img: t12,
+      
+      }, {
+        img: t13,
+      
+      }, {
+        img: t14
+      
+      }, {
+        img: t15,
+      
+      }, {
+        img: t16,
+      
+      }, {
+        img: t17,
+      
+      }, {
+        img: t18,
+      
+      },]: [];
 
   const avatarData = [
     {
