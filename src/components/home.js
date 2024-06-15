@@ -590,7 +590,7 @@ export default function Home() {
           display: "flex",
           justifyContent: "center",
 
-          padding: "40px 0px 20px 30px",
+          padding: "60px 0px 20px 30px",
           // padding: "100px 134px 37px 134px",
         }}
       >
@@ -599,7 +599,7 @@ export default function Home() {
             "https://lh3.googleusercontent.com/drive-viewer/AKGpihanS8OjjgJGCjq3dReVNScAhyxQQq_b-iazvlbVVbaicqPZVo-KV0bhl9F31-pB3j9vsttXMI70wLKDSbvjjj2xDQPZW59s8bg=s1600-rw-v1"
           }
           alt="img"
-          width={"300px"}
+          width={"350px"}
         />
 
         <Grid item xs={12} md={6}>
