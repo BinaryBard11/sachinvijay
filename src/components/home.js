@@ -25,7 +25,8 @@ function srcset(image, size, rows = 1, cols = 1) {
 }
 
 export default function Home() {
-  const photos1 = [
+  const photos1 = ["https://lh3.googleusercontent.com/drive-viewer/AKGpihbraV5S8KH9n1hplkaOUW9NRAWB1YpaaIuuREiR1KpY-RAKCXguahpUjCVaK60NNOa7FzkomOWU2EbyBcX2Pi7yvpFRzNFxkkg=s1600-rw-v1",
+  "https://lh3.googleusercontent.com/drive-viewer/AKGpihbAGceycxOoWKfnrEg2nG51tNp20cv51BHSxkBsQphqUe76v3ZgSZFOnQAZtWJ-z1G2EUh_ggQ-NxkBY-7PKC0nJIjeREx89ME=s1600-rw-v1",
     "https://lh3.googleusercontent.com/drive-viewer/AKGpihZpaWi_KG6aPmftST481jCxENW95auDOu7AZn7GPM4NfdsDs1_k8XCFbi24e_DG2cSmXOhCEG9jR9HAGHHFsdgfbMw0ej2d1so=s1600-rw-v1",
     "https://lh3.googleusercontent.com/drive-viewer/AKGpihaN-JJaWko_gWb00wTC6L2WJj9TXumEdFjoQ27J1b0O3tXYuW3z70dcGVJFhitsDEZG34qtAXZu6bW4PNeiJ9wemMkgwO_xpys=s1600-rw-v1",
     "https://lh3.googleusercontent.com/drive-viewer/AKGpihYsasXO-ROcIBGi90-yjsH7cREyANW9vJcC8LjkG7RKh-kbqbKwjWr2w_dtwm8i4w3FV8T7mEJ1DnRWYJiOQ3atXULoKl4EIHY=s1600-rw-v1",
