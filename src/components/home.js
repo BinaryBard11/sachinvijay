@@ -12,7 +12,49 @@ import img8 from "../images/img8.png";
 import img9 from "../images/img9.png";
 import img10 from "../images/img10.png";
 import img11 from "../images/img11.png";
+import mo2 from "../images/mo2.PNG";
+import mo3 from "../images/mo3.PNG";
 
+import mo5 from "../images/mo5.PNG";
+import mo6 from "../images/mo6.PNG";
+import mo7 from "../images/mo7.PNG";
+import mo8 from "../images/mo8.PNG";
+import mo9 from "../images/mo9.PNG";
+import mo10 from "../images/mo10.PNG";
+import mo11 from "../images/mo11.PNG";
+import mo12 from "../images/mo12.PNG";
+import mo13 from "../images/mo13.PNG";
+import mo14 from "../images/mo14.PNG";
+import mo15 from "../images/mo15.PNG";
+import mo16 from "../images/mo16.PNG";
+
+import mo18 from "../images/mo18.PNG";
+import mo19 from "../images/mo19.PNG";
+import mo20 from "../images/mo20.PNG";
+import mo21 from "../images/mo21.PNG";
+
+import sc1 from "../images/sc1.PNG";
+import sc2 from "../images/sc2.PNG";
+import sc3 from "../images/sc3.PNG";
+
+import sc5 from "../images/sc5.PNG";
+import sc6 from "../images/sc6.PNG";
+import sc7 from "../images/sc7.PNG";
+import sc8 from "../images/sc8.PNG";
+import sc9 from "../images/sc9.PNG";
+import sc10 from "../images/sc10.PNG";
+import sc11 from "../images/sc11.PNG";
+import sc12 from "../images/sc12.PNG";
+import sc13 from "../images/sc13.PNG";
+import sc14 from "../images/sc14.PNG";
+import sc15 from "../images/sc15.PNG";
+import sc16 from "../images/sc16.PNG";
+import sc17 from "../images/sc17.PNG";
+import sc18 from "../images/sc18.PNG";
+import sc19 from "../images/sc19.PNG";
+import sc20 from "../images/sc20.PNG";
+import sc21 from "../images/sc21.PNG";
+import sc22 from "../images/sc22.PNG";
 // import logo2 from "../images/logo2.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -79,6 +121,176 @@ export default function Home() {
   const handleClose = () => {
     setOpen(false);
   };
+
+  const itemData =
+    dailogeTitle === "Morocco"
+      ? [
+          {
+            img: mo2,
+            rows: 2,
+            cols: 2,
+          },
+          {
+            img: mo5,
+            rows: 2,
+            cols: 2,
+          },
+          {
+            img: mo3,
+            rows: 3,
+            cols: 3,
+          },
+          {
+            img: mo6,
+          },
+          {
+            img: mo7,
+          },
+          {
+            img: mo8,
+          },
+          {
+            img: mo9,
+          },
+          {
+            img: mo10,
+          },
+          {
+            img: mo11,
+          },
+          {
+            img: mo12,
+          },
+          {
+            img: mo13,
+          },
+          {
+            img: mo14,
+          },
+
+          {
+            img: mo15,
+          },
+          {
+            img: mo16,
+          },
+          {
+            img: mo18,
+          },
+          {
+            img: mo19,
+          },
+          {
+            img: mo20,
+          },
+          {
+            img: mo21,
+          },
+        ]
+      : "Scotland"
+      ? [
+          {
+            img: sc1,
+            rows: 2,
+            cols: 2,
+          },
+          {
+            img: sc2,
+          },
+          {
+            img: sc3,
+          },
+          {
+            img: sc5,
+          },
+          {
+            img: sc6,
+          },
+          {
+            img: sc7,
+          },
+          {
+            img: sc8,
+          },
+          {
+            img: sc9,
+          },
+          {
+            img: sc10,
+          },
+          {
+            img: sc11,
+          },
+          {
+            img: sc12,
+          },
+          {
+            img: sc13,
+          },
+          {
+            img: sc14,
+          },
+          {
+            img: sc15,
+          },
+          {
+            img: sc16,
+          },
+          {
+            img: sc17,
+          },
+          {
+            img: sc18,
+          },
+          {
+            img: sc19,
+          },
+          {
+            img: sc20,
+          },
+           {
+            img: sc21,
+          },
+          {
+            img: sc22,
+          },
+        ]
+      : [];
+
+  const avatarData = [
+    {
+      id: 1,
+      label: "Morocco",
+      img: mo5,
+    },
+    {
+      id: 2,
+      label: "Scotland",
+      img: sc6,
+    },
+    {
+      id: 3,
+      label: "Turkey",
+      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    },
+    {
+      id: 4,
+      label: "Brighton",
+      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    },
+    {
+      id: 5,
+      label: "Wales",
+      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    },
+
+    {
+      id: 8,
+      label: "London",
+      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    },
+  ];
+
   useEffect(() => {
     const intervalId1 = setInterval(() => {
       setCurrentPhotoIndex1((prevIndex) => (prevIndex + 1) % photos1.length);
@@ -87,7 +299,6 @@ export default function Home() {
     return () => clearInterval(intervalId1);
     // eslint-disable-next-line
   }, []);
-
   return (
     <Grid>
       <Box
@@ -237,20 +448,21 @@ export default function Home() {
             textTransform: "uppercase",
 
             textAlign: "center",
-           
           }}
         >
           Travel Dairy
         </Typography>
-        <Grid container spacing={{ xs: 2, md: 3 }} sx={{
+        <Grid
+          container
+          spacing={{ xs: 2, md: 3 }}
+          sx={{
             display: "flex",
             justifyContent: "center",
-            padding:'20px',
-            marginLeft:"0px!important",
-            marginTop:"0px!important",
-
-
-          }}>
+            padding: "20px",
+            marginLeft: "0px!important",
+            marginTop: "0px!important",
+          }}
+        >
           {avatarData.map((item) => (
             <Grid xs={3} sm={4} md={4} key={item?.id}>
               <Avatar
@@ -287,7 +499,11 @@ export default function Home() {
         </IconButton>
         <DialogContent
           sx={{
-            overflowY: "hidden",
+            overflowY: "scroll",
+            overflowX: "none",
+            "&::-webkit-scrollbar": {
+              display: "none",
+            },
           }}
           dividers
         >
@@ -324,96 +540,3 @@ export default function Home() {
     </Grid>
   );
 }
-const avatarData = [
-  {
-    id: 1,
-    label: "Morocco",
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-  },
-  {
-    id: 2,
-    label: "Scotland",
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-  },
-  {
-    id: 3,
-    label: "Turkey",
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-  },
-  {
-    id: 4,
-    label: "Brighton",
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-  },
-  {
-    id: 5,
-    label: "Wales",
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-  },
-
-  {
-    id: 8,
-    label: "London",
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-  },
-];
-const itemData = [
-  {
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-    title: "Breakfast",
-    rows: 2,
-    cols: 2,
-  },
-  {
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
-    title: "Burger",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
-    title: "Camera",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
-    title: "Coffee",
-    cols: 2,
-  },
-  {
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
-    title: "Hats",
-    cols: 1,
-  },
-  {
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
-    title: "Honey",
-    author: "@arwinneil",
-    rows: 2,
-    cols: 2,
-  },
-  {
-    img: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6",
-    title: "Basketball",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
-    title: "Fern",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1597645587822-e99fa5d45d25",
-    title: "Mushrooms",
-    rows: 2,
-    cols: 2,
-  },
-  {
-    img: "https://images.unsplash.com/photo-1567306301408-9b74779a11af",
-    title: "Tomato basil",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1",
-    title: "Sea star",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6",
-    title: "Bike",
-    cols: 2,
-  },
-];
