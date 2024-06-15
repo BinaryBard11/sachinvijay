@@ -12,73 +12,7 @@ import img8 from "../images/img8.png";
 import img9 from "../images/img9.png";
 import img10 from "../images/img10.png";
 import img11 from "../images/img11.png";
-import mo2 from "../images/mo2.PNG";
-import mo3 from "../images/mo3.PNG";
 
-import mo5 from "../images/mo5.PNG";
-import mo6 from "../images/mo6.PNG";
-import mo7 from "../images/mo7.PNG";
-import mo8 from "../images/mo8.PNG";
-import mo9 from "../images/mo9.PNG";
-import mo10 from "../images/mo10.PNG";
-import mo11 from "../images/mo11.PNG";
-import mo12 from "../images/mo12.PNG";
-import mo13 from "../images/mo13.PNG";
-import mo14 from "../images/mo14.PNG";
-import mo15 from "../images/mo15.PNG";
-import mo16 from "../images/mo16.PNG";
-
-import mo18 from "../images/mo18.PNG";
-import mo19 from "../images/mo19.PNG";
-import mo20 from "../images/mo20.PNG";
-import mo21 from "../images/mo21.PNG";
-import mo22 from "../images/mo22.PNG";
-import mo23 from "../images/mo23.PNG";
-import mo24 from "../images/mo24.PNG";
-import mo25 from "../images/mo25.PNG";
-import mo26 from "../images/mo26.PNG";
-import sc1 from "../images/sc1.PNG";
-import sc2 from "../images/sc2.PNG";
-import sc3 from "../images/sc3.PNG";
-
-import sc5 from "../images/sc5.PNG";
-import sc6 from "../images/sc6.PNG";
-import sc7 from "../images/sc7.PNG";
-import sc8 from "../images/sc8.PNG";
-import sc9 from "../images/sc9.PNG";
-import sc10 from "../images/sc10.PNG";
-import sc11 from "../images/sc11.PNG";
-import sc12 from "../images/sc12.PNG";
-import sc13 from "../images/sc13.PNG";
-import sc14 from "../images/sc14.PNG";
-import sc15 from "../images/sc15.PNG";
-import sc16 from "../images/sc16.PNG";
-import sc17 from "../images/sc17.PNG";
-import sc18 from "../images/sc18.PNG";
-import sc19 from "../images/sc19.PNG";
-import sc20 from "../images/sc20.PNG";
-import sc21 from "../images/sc21.PNG";
-import sc22 from "../images/sc22.PNG";
-
-
-import  t19 from "../images/t19.PNG";
-import  t1 from "../images/t1.PNG";
-import  t2 from "../images/t2.PNG";
-import  t3 from "../images/t3.PNG";
-import  t4 from "../images/t4.PNG";
-import  t5 from "../images/t5.PNG";
-import  t6 from "../images/t6.PNG";
-import  t7 from "../images/t7.PNG";
-import  t8 from "../images/t8.PNG";
-import  t9 from "../images/t9.PNG";
-import  t10 from "../images/t11.PNG";
-import  t12 from "../images/t12.PNG";
-import  t13 from "../images/t13.PNG";
-import  t14 from "../images/t14.PNG";
-import  t15 from "../images/t15.PNG";
-import  t16 from "../images/t16.PNG";
-import  t17 from "../images/t17.PNG";
-import  t18 from "../images/t18.PNG";
 // import logo2 from "../images/logo2.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -115,7 +49,7 @@ export default function Home() {
     img8,
     img10,
     img11,
-    img27
+    img27,
   ];
 
   const [currentPhotoIndex1, setCurrentPhotoIndex1] = useState(0);
@@ -194,184 +128,179 @@ export default function Home() {
           },
 
           {
-            img: mo15,
+            img:"https://lh3.googleusercontent.com/drive-viewer/AKGpihbmjRYNwdiZ0w8yyKWrOH2UC8MOukFKHncwBpCvCD9oVyo8CwvWi_mPKIFuCI_XXhENGaI7Ip31i1jQWZO7VVC2cuLf7PEpbg=s1600-rw-v1" ,
           },
           {
-            img: mo16,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYppPWggyGHop1Y_EhHXGlXJdzwJZ-MnH3zenidi6KrV3Fq_eKfOf8zuaz89LPNoschT8duIlCi_cuutLiXIz0jVK1AyBIVZYQ=s1600-rw-v1",
           },
           {
-            img: mo18,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbM0Pm88EiiqsyKl_bzKNvPlxqXXtlvygV694AzhTosR9MqLUg62Rp_-hrrO_Sf57E5DQ3IsUqbKk7uDl61DhRhhwuy56DJWMA=s1600-rw-v1",
           },
           {
-            img: mo19,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihb2kNne-zzm7WpcGnAOKFGM8DToaH9lYQQm2a-F7LUH7gFzwKBE7zQMSEtKbIhQsdKG2oDxdiz2xmqnSjMXq-FwiRolbx_NNXw=s1600-rw-v1",
           },
           {
-            img: mo20,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZpafeqZz-ynPJPxUgILvCr4_lkbeScZsOjY3ELGCxZLY8dmZ5ehjvEKu6Mn4c6aGvse3xRmyJhDKR1EyPqeHpBX7tLba7ZlnE=s1600-rw-v1",
           },
           {
-            img: mo21,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZXUyidf3iVyApJJAq0l8mkYR7wxlc22S9Ix8ZJSsXB7XZcgtsgOSJzyFyLOUYzsYDPJ6d6NHx20CzsgMipdU_5cdTAGj3FdyM=s1600-rw-v1",
           },
           {
-            img: mo22,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbgPheqV5RbvtE3SNXNBSSde2vDvUBFpyWBBZZpnxwh96-SjZdiuMf2hE7nZPqi2ZyA4JHogflknCigAhRvqylXWJmvnB49Sxc=s1600-rw-v1",
           },
           {
-            img: mo23,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbLKjglRSIeJtW5CAU9tfecTi_YFQD_ALSad-NVy_ZV5E4qDqJ3BHb79nRBlXyji8zK5eT5sNHP-f0uDsWpaeJ_o5_hbtxogEo=s1600-rw-v1",
           },
           {
-            img: mo24,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ9Bml4hz9sxGMnDcOqkWo1m3oAHSgXnNiSek0bliqxSNHy45K9eg9QI9lWogfWg_Cbpj9dhwWfWwRuPOWObs4HjmqBE2aWdg=s1600-rw-v1",
           },
           {
-            img: mo25,
+            img:"https://lh3.googleusercontent.com/drive-viewer/AKGpihbi35p8pRWhFB6fY44payz2-xlriwr8Mawn3qsC08h2q2anUz5wH5zDz4iKKjQ5Kh6pZIWmiVuZFgtbsavWcCZim0CbDsabZrI=s1600-rw-v1",
           },
           {
-            img: mo26,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZoCssLc_zFQFAX-7DdUu8HOmpSwPjIzOd4KPChcQ6Z3AHLItS-Jceso8YzvROEkLMDbXSSd9UVeb-ITF2fO_FrgUFZKHwsUw=s1600-rw-v1",
           },
         ]
-      : "Scotland"
+      : dailogeTitle ==="Scotland"
       ? [
           {
-            img: sc1,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbq4mDiP_PCpKPK0LimCQA-EHlMjD66Q74TY8Z6019rOHa3GW-w-iXLeN4_ZHaunztaZJRNlijxZWtNJp2D-Xr612JDiTUYRWM=s1600-rw-v1",
             rows: 2,
             cols: 2,
           },
           {
-            img: sc2,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaoSLJ8bl8U3Gm2xQOUlhtlQpz9CnXQrJgYJYaqXBc4DlF7Q0RtxYYvdzHrAZ3Nvk0TJFnFi_aQW-5LQ52hVYPiRiTnkDtg3w=s1600-rw-v1",
           },
           {
-            img: sc3,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaNdrgtDHJIg8P2Ag4vcS_WIA0LZjZ7KHfRrme9LZ-Ct2wbLUlRmq9d8W9yIzR3mcYZcs-nZCIplvx3Hb_bqWiBwNFECBehsA=s1600-rw-v1",
           },
           {
-            img: sc5,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZHy47oN-qdVxX_B6tM-4uDhMSJ7ylYK70YQtCh_d8SKlGtGURS2a2yE-iDEmwVAA8ySPd7zX_fFAVvQNsbSbjtzJlolC6dCFw=s1600-rw-v1",
           },
           {
-            img: sc6,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaEIP42xpOZhrHPdNtq8JKaBCWBlK5JED4oEkP4vaeDZ44IycuPg2A7EQucSELz5GZOJDt-lOGbUoq3Fkrob7aJQ_we9hDcyAs=s1600-rw-v1",
           },
           {
-            img: sc7,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY7wBgLp4kVVFifi5izv_k_Rd9i7tpNScbC83n7jxfznfDy-Sjxhm40pHsMPPPRf6IPhbCiUPcU4hZIs1H-sJxgRh0CDdTL3OE=s1600-rw-v1",
           },
           {
-            img: sc8,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbaNr1nVIVl5fmCiVEtwqzB5XOWC_C36AR6sMYOuOrGjbYEBe_Kx1AYjTej20IpqqyMJjKumPUbHCLQqrEVfKgq-U9-R8ohXIs=s1600-rw-v1",
           },
           {
-            img: sc9,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha3LXqgsFCSeNosiozdkSZ52pvwfLhUyJRlsLV97KgO2AHY__USNHqVxr3rIkMgqCoUlGZxqy0wBZd8DsYNNqgMwURDacbw8l4=s1600-rw-v1",
           },
           {
-            img: sc10,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYhwTKyR-XYdhrDn_DAb45ucXG4ZepOnK_AdIoxdkD8g643Hbwu-68jELSpoNMwf8GXc-kDHRQqsY5myXBVggLwyUP8N-IHEw=s1600-rw-v1",
           },
           {
-            img: sc11,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYHXnQpegCE7BTJivJStUHgchi7_mY0AiInDuzswb44Dg66zj65MbooEchuB89pAQ4o2YpZ994bjHpKJ4nG9W2ime3lV53fGxg=s1600-rw-v1",
           },
           {
-            img: sc12,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZEX7eQHOTro-Hv26KIzNCbG8_fVAJNQIoI3uo6aOf8Avhmf7qMtsL85087DxuzGE19E0j80YhxcDCqPGFdE_QXq2u1tc_x1ys=s1600-rw-v1",
           },
           {
-            img: sc13,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYfb_ZPEUFYuWUasOOSPLVdcMILxITRwOXNb7vIdxYh14j2v3cWLVTonSb0F7UOY8C-CMstimFEbN2PHikMvE8c0bCLU-ithCg=s1600-rw-v1",
           },
           {
-            img: sc14,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaQ3Don0M2stencH9uWslw53zu-DOPhKtr6TTfUE4csvmD4djZwAuRjRV7BfDeSmobDs3OOllP95fJC86yRG8U2zlz5m7hf_ts=s1600-rw-v1",
           },
           {
-            img: sc15,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbkjyp2F61sFbViJdpn_JhTMah1XX44j6ZdTm9bm4NhmWTQJYl8fKogN3YxG94B7bod44CtQ7xeMkGVGIA7n342XiqpgtFzSQ=s1600-rw-v1",
           },
           {
-            img: sc16,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha5tEH8YP4zJN4_lMnJfA2E_U5KuQNLRZyHZadX435ZGVnK40Rt1wDRB70jupGyONr3S0TvICY9_6gcCHO-PyWnmhMm5SnIxXc=s1600-rw-v1",
           },
           {
-            img: sc17,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZj0kzw0j3KjbC5hIK2y1Rb60spR-mYJykcqmj9k2R2LVSFVdvM0lQWeoYqvlS8H-168VXgslEb3LTsg5msPJP7rQS3tazI3g=s1600-rw-v1",
           },
           {
-            img: sc18,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbR-Nefe0bcBO7ZX1hAAo89ZNDtVcQh3Q5jyjfn_IWJ3WrwsLaAt2iz5vkrTS1ki6PcGyZLUUZcVxInXFcg-VTdD5LJ9vakDME=s1600-rw-v1",
           },
           {
-            img: sc19,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY6UcskZ4qdLEvgZEfRidUnfqEyVREfITfyyNR3L8bzieGKmwTk1CKvWRE5V56hiknQKj4ys2-acl28xyS2rf8gUdgC7JXWtaY=s1600-rw-v1",
           },
           {
-            img: sc20,
-          },
-           {
-            img: sc21,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaEKgv9cHHaFz_8W0gNqcZGrx8zuH1fA9Mdqms8heZgtYuiiDCVYsWPeUaGqX4aqpWyjJQJBGyAAym1EBdSdnwfwFpi3c7BUQ=s1600-rw-v1",
           },
           {
-            img: sc22,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZvQp3_6aTQAMEujZTkU3r4zeDcpC3EHBKSOa6HLH1kZaFO-KCFKlQalV4KYdhDC8qgIk3OCZMzlQ4U85m3I6TGp9KJTvyIiuE=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaXUBQfhBq16cQ3wCVMTQDWg-Dputn0YhVTG1bLgb70Ic7z2-fZMM46-YK6p35Kir35o7HELJ76QbE-snrqwAWLDda2CuJtMQ=s1600-rw-v1",
           },
         ]
-      :"Turkey"?[ {
-        img: t19,
-        rows: 2,
-        cols: 2,
-      }, {
-        img: t1,
-      
-      }, {
-        img: t2,
-      
-      },
-      {
-        img: t3,
-      
-      }, {
-        img: t4,
-      
-      }, {
-        img: t5,
-      
-      }, {
-        img: t6,
-      
-      }, {
-        img: t7,
-      
-      }, {
-        img: t8,
-      
-      }, {
-        img: t9,
-      
-      }, {
-        img: t10,
-      
-      }, {
-        img: t12,
-      
-      }, {
-        img: t13,
-      
-      }, {
-        img: t14
-      
-      }, {
-        img: t15,
-      
-      }, {
-        img: t16,
-      
-      }, {
-        img: t17,
-      
-      }, {
-        img: t18,
-      
-      },]: [];
+      :dailogeTitle === "Turkey"
+      ? [
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ0B776bkis3SmPyiOd6ad0hfmNHPsCjFd2bSoQcJQVUwNJ1Hs5ulloju4SYBgvu0oS1vn9hLFgkLaB5D9T1uV7ONvdBGfil5w=s1600-rw-v1",
+            rows: 2,
+            cols: 2,
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ7r-aRgRi8IiV3cjlWnzeEtDVvJkydOcNijo5apSl13iSZ9Drsnc28IptqDgeMKmok_6V1HYX0BruHGzcIh5Mfawoel5Gz4EA=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYIiSielien3Qu1NyPmy-Nop9wwwFq3_Kyf59e2bivCvsf5uRvKxBdfgJ2blWPdYKh2H51c4H0Ffdj9yDBuV_2fQhLxv4Sa8hE=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYiAfDGL8-sm_JWP15pkm0z1DhzjT6rHvsm-HHinQqNGY5T0NaSg7GlrUIRINu4Tja1beE8Md1ZUPdinNG2nZxCryKGFXYdP7Q=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYRSPh9O9utXhmuXybO_cZlsjCcLhHvhoyFnhnQypJQJj8cmz0cyYWe5f_X-Qt3G-vf2JgELzv_r0_oX_yNUHtr02M37RujmVw=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbJifYERSQ9K90MG4kwHndrNQ0q3kzZxqVCd_m_cUoWY1huKwM3cfw_JV95v_0k2iaaKBLO_6ybSNtsEjTAKCD6WCLd6UANq_4=s1600-rw-v1",
+          },
+        
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY5r3qkPiYJloOyr387TdzReOiJz3eegCFU4obE_akk7GgcC8mkrBpLCbGY7FegFCC_DYPoY7jMGfRTq4rwQXX6IptE9uY-cQ=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbXfba9OlyqQcJNPeUYuxOfxwjgo0PezqLQASTI5cAZKFsN9QEzoIrWKwNnLRgLoUP1n3OomSWsIDgrcwcYMEEhuM6GgTtIrQ=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihayx3DFG5B-ESg6hI8bBKvNUIEsDdK0rB9bbXj_nFm1Gco6nuWT_U77pC2LkIIx_U2SVoVa9NIp-O6cXLzsiRBLLAhYrSKxLPY=s1600-rw-v1",
+          },
+         
+          
+
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbk2m_dePgvGBbz1tvJeVN0DGbVK066eAGlQqJJ7W6HoMLoW4GL59D4iPsWRxZru3aG10R-sdjRn6Z_2Z1RbMRD7glEYKzGWno=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha5QFRL0dJxp0GvHIi640yYQkYRXpgnNVgL56WiMOqhCRN1sOmhCNAPa5WyYfS5ly7tod1DcIQ-f4llMKDkFLGQEnVFRtqtuG8=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihb2Zh37VnCvVYhA1HDrx6ZDsHKL05-sAADluXBz_5EJvtID0mu1_p_Q949k-oGUrkewZlAFIkof4dYrJ0Dh63a9a7wOXbsgK20=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZz029fx6Jj_AJB67kTnZS5bFfudoNvg-NHKPBEVxrskQrtw-D-m1B9E0SDwCPtpqULegsPJMD2rqAo_uVF_oTbnGQwnMWGuQ=s1600-rw-v117",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbeUhgwEtA4vIRN0Sukqq1GRivmli-t5t2nw-D9ynVFeAXA0ZDNn2JwVw0PZBmDBuTIWoqy2OJQ8G_OL4GYyBi2wMUtQ04DlPo=s1600-rw-v1",
+          },
+        ]
+      : [];
 
   const avatarData = [
     {
       id: 1,
       label: "Morocco",
-      img: mo5,
+      img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYRYcUofl7nebjcIdgNqH7ujLObxJLJ2S85weoAwzYgWm5SoeACI1Tc21pCO_eDf30GvGnILVeN3dJN6YlHBSmrRmS6EhWHmhE=s1600-rw-v1",
     },
     {
       id: 2,
       label: "Scotland",
-      img: sc6,
+      img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaEIP42xpOZhrHPdNtq8JKaBCWBlK5JED4oEkP4vaeDZ44IycuPg2A7EQucSELz5GZOJDt-lOGbUoq3Fkrob7aJQ_we9hDcyAs=s1600-rw-v1",
     },
     {
       id: 3,
       label: "Turkey",
-      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+      img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbeUhgwEtA4vIRN0Sukqq1GRivmli-t5t2nw-D9ynVFeAXA0ZDNn2JwVw0PZBmDBuTIWoqy2OJQ8G_OL4GYyBi2wMUtQ04DlPo=s1600-rw-v1",
     },
     {
       id: 4,
-      label: "Brighton",
+      label: "Cormwall",
       img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
     },
     {
