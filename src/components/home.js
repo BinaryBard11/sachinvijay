@@ -656,6 +656,7 @@ export default function Home() {
             alignContent: { xs: "none", md: "center" },
 
             textAlign: "center",
+       
           }}
         >
           Photo Gallery
