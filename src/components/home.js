@@ -1,7 +1,6 @@
 import { Box, Typography, Grid, Avatar } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
-
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -116,7 +115,7 @@ export default function Home() {
           },
 
           {
-            img:"https://lh3.googleusercontent.com/drive-viewer/AKGpihbmjRYNwdiZ0w8yyKWrOH2UC8MOukFKHncwBpCvCD9oVyo8CwvWi_mPKIFuCI_XXhENGaI7Ip31i1jQWZO7VVC2cuLf7PEpbg=s1600-rw-v1" ,
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbmjRYNwdiZ0w8yyKWrOH2UC8MOukFKHncwBpCvCD9oVyo8CwvWi_mPKIFuCI_XXhENGaI7Ip31i1jQWZO7VVC2cuLf7PEpbg=s1600-rw-v1",
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYppPWggyGHop1Y_EhHXGlXJdzwJZ-MnH3zenidi6KrV3Fq_eKfOf8zuaz89LPNoschT8duIlCi_cuutLiXIz0jVK1AyBIVZYQ=s1600-rw-v1",
@@ -143,13 +142,13 @@ export default function Home() {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ9Bml4hz9sxGMnDcOqkWo1m3oAHSgXnNiSek0bliqxSNHy45K9eg9QI9lWogfWg_Cbpj9dhwWfWwRuPOWObs4HjmqBE2aWdg=s1600-rw-v1",
           },
           {
-            img:"https://lh3.googleusercontent.com/drive-viewer/AKGpihbi35p8pRWhFB6fY44payz2-xlriwr8Mawn3qsC08h2q2anUz5wH5zDz4iKKjQ5Kh6pZIWmiVuZFgtbsavWcCZim0CbDsabZrI=s1600-rw-v1",
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbi35p8pRWhFB6fY44payz2-xlriwr8Mawn3qsC08h2q2anUz5wH5zDz4iKKjQ5Kh6pZIWmiVuZFgtbsavWcCZim0CbDsabZrI=s1600-rw-v1",
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZoCssLc_zFQFAX-7DdUu8HOmpSwPjIzOd4KPChcQ6Z3AHLItS-Jceso8YzvROEkLMDbXSSd9UVeb-ITF2fO_FrgUFZKHwsUw=s1600-rw-v1",
           },
         ]
-      : dailogeTitle ==="Scotland"
+      : dailogeTitle === "Scotland"
       ? [
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbq4mDiP_PCpKPK0LimCQA-EHlMjD66Q74TY8Z6019rOHa3GW-w-iXLeN4_ZHaunztaZJRNlijxZWtNJp2D-Xr612JDiTUYRWM=s1600-rw-v1",
@@ -217,7 +216,7 @@ export default function Home() {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaXUBQfhBq16cQ3wCVMTQDWg-Dputn0YhVTG1bLgb70Ic7z2-fZMM46-YK6p35Kir35o7HELJ76QbE-snrqwAWLDda2CuJtMQ=s1600-rw-v1",
           },
         ]
-      :dailogeTitle === "Turkey"
+      : dailogeTitle === "Turkey"
       ? [
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ0B776bkis3SmPyiOd6ad0hfmNHPsCjFd2bSoQcJQVUwNJ1Hs5ulloju4SYBgvu0oS1vn9hLFgkLaB5D9T1uV7ONvdBGfil5w=s1600-rw-v1",
@@ -239,7 +238,7 @@ export default function Home() {
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbJifYERSQ9K90MG4kwHndrNQ0q3kzZxqVCd_m_cUoWY1huKwM3cfw_JV95v_0k2iaaKBLO_6ybSNtsEjTAKCD6WCLd6UANq_4=s1600-rw-v1",
           },
-        
+
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY5r3qkPiYJloOyr387TdzReOiJz3eegCFU4obE_akk7GgcC8mkrBpLCbGY7FegFCC_DYPoY7jMGfRTq4rwQXX6IptE9uY-cQ=s1600-rw-v1",
           },
@@ -249,8 +248,6 @@ export default function Home() {
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihayx3DFG5B-ESg6hI8bBKvNUIEsDdK0rB9bbXj_nFm1Gco6nuWT_U77pC2LkIIx_U2SVoVa9NIp-O6cXLzsiRBLLAhYrSKxLPY=s1600-rw-v1",
           },
-         
-          
 
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbk2m_dePgvGBbz1tvJeVN0DGbVK066eAGlQqJJ7W6HoMLoW4GL59D4iPsWRxZru3aG10R-sdjRn6Z_2Z1RbMRD7glEYKzGWno=s1600-rw-v1",
@@ -266,6 +263,96 @@ export default function Home() {
           },
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbeUhgwEtA4vIRN0Sukqq1GRivmli-t5t2nw-D9ynVFeAXA0ZDNn2JwVw0PZBmDBuTIWoqy2OJQ8G_OL4GYyBi2wMUtQ04DlPo=s1600-rw-v1",
+          },
+        ]
+      : dailogeTitle === "Wales"
+      ? [
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbg7G5HtcMqFNHanCAkcRvXaP0tTy7Z8vlsJGo3btwYDvTKqhC_9XFxcptwghkhjbbKvQ8D_HX0ATnY4-1WviSgp_NSavBhBQ=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYte6th7_EMf3MlJvbGZfwltW7j2O2mBVGfvcRGmMA3AnUpseWuQdh-pAnYtEGbyPBtXWWj1WahcTXwFUua5BLUZikhw5uKoNs=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZqZ92hHo-AVs8POvbIVPmIy7dy4-100B3nXZiWKut9AlaArBJtEp9CUMGZRu_AvcDnbLtO2TfykguNg11ltBDf9uDHXxMRvw=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZE6YQuLhFgJqfuNQkcQo-YC52hCGEoulunca83OQI-8wDY0IGQ8QY06FtKw3SBwCArgabjAhIcT2TSnmVCjiwngkHymVR9WFI=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha7RHjQ7XMrpjID4JHWTqo2Vw7qPjlG68tftaXrN2wDPe811KWPb30OzZUpxjQ6mGZpFxyMmvdBz3AZvb07qLt_XoGsKiYGrx4=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZtBGavZjL-PXfQkIxA0_9v71RG-2prmwknBeGUgVIl-AUbgnYd88Gj0ZQSO_hnQVjw8JDc9wkobARtFeJwTfZutOmEDPI5Vg=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbktDMXt1mekZ6l-t3ILAt1_mkhtyDUNLQwvER2wy1XfJ_rEHMxOKJkSXCPovh7riKUgl5KtS10GFe9UuXHtcFh1MGNGbzk8w=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihY9hB7y1_vPjmqbnP0z6EEDUdu4PUA5ZHqgfkzCvPgTga0V__JPb_YmUdGAftsmRBXTXGyNcToVWPPLrrB3_NHzlO967FrJIu4=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihba43S6BSpr9bSKNQlB26pXfKRovRMri7Yzo4XWoHwz8T5tVmQTjzfcbvsGTimHN64b0ztcOTuNhY7UMnHOm96lhOq-nlqhR5c=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaVNsafNNxiaJJbMgMYO33Z42qVgNfFsFK-vPmub7ue7NA0wWEhF1U0XPlVGZxJdDHQwN5f5wR-a9CHN9he982Qyo2TWfWHyA=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpiha77KsXWhLmVSP2-fwBSWthnODX71rU5p9OGAbl13pv8RDj3U1V7hrhR-sZclpenSvFEybTf5VCYzu9td7IFSFkceZqTfKn3g=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihamyo9Udj1iO7j4m37WnLLJ7WJ5eHSsNDJXz-0PYRrKfKEyS0cNZy3cjYs1mnNxq66Nk4DbtM8vxr-gP5jgW8zhfySXgT-boOE=s1600-rw-v1",
+          },
+        ]
+      : dailogeTitle === "London"
+      ? [
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYU60rqirQbDT_6QCFc5ZoPJiXOZc_TvQvlxMB2BGikR-yGnlRsrHr5JAiSI_11_hTqLAct155sg45yBwIuB7MK0KqNKoJ8Z2E=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYn8GHgezmFfEm1bcqchUzuf16omGcrNNjKKnu_vVxWjnYjo6m5XDuSDDxMod9tyikDe0g6IeIeqkUgIpVj_S3d3aCvdhfsNLM=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbPXfhT1wR7EepMGJ8ZoUbUHvboq88YuyG2AF3W1iz5RBgqGkO59xb6CPDK-oYMybiDsA0hgUUU6oVJ_3yRV-O2AQAMAnTx=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYy28YZWmddjiUQD8BEDB18Yr-UCmArELfCkR3Vj7rluRlXX002AeZstuPO8jgXv_b9Mxre3V7PU4Hi0wtfsi5fvI8nZcAwGxM=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbPqBvk3mfxbCrtoUSER6IhIJybjQQ04AKaiGP2Uvc-PBJp4gIHKA7IPqC875-YWrahm9QX9Y8bHJe76IdbwilOQaRzFfM_wPo=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihanHelNg9tc7_hQDX-nAnOp2sq91Ai_hqoZHu62Y0bg0dCsXXTOfMU947K_zzmUR96m-CvuKmSi69L1UDek94_AUu1lplwltnQ=s1600-rw-v1",
+          },
+        ]
+      : dailogeTitle === "Cormwall"
+      ? [
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihapy3eth3UzOK-XQ0d5EAXq5H7kD9ZWlA9z8HCpmBxX8YrT7mgeus96krTLAi3EJipnI4H_pndMMqaw2eNjgp1q_sr7qzbSXuQ=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYAOjKtJ38qbk_vuGCe9CLZIxlSrlAsNwGgolVxKK4j9CmCjuWcHS_DlyAl-yAoGnBizQJ6xILRHThtx_0ePwdbiUbUD9WOOVo=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaX7HV0SffpF9rcy4qdO-s_NILNzGQr5x8MXee7t9caRc35uPpkP_hh-nhsWOGNkAeAspvKnkSubWPXxfTDpinFdKdcudtGVA=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbmqJs_tT79jNha1N9EeDhAA32pbNqsAwXgNERzhUXFowGDdEocAWG2bfXe0ilAJD1YlS4ioZJvvrT77MCa4UGEzOEiEt6Cuck=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYhMDnlvvPOlGh-FldyXt1B1FYYnu6TC0FxLacXwRbfkaxi5Ap7id4Ult56yjch5D8rthPYM2-WVOP6tK1J7DCPb06IS1zr0Q=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZHytZP9uh4bKWSIVfFAySeWYXYBr0O508oFBFeBtgNquNFva-_OH3ybzYKNtFM2N11OSXw_GwatqoRV7eFadI1udZe2DjRC_M=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihb-PI3a_mphax6J0tLX7qK7ZGZfF_dOZE984_7lrp27u2Bwa4buGOR0kE9pTvogcV9-HeJ9Xudde7TxJYAdAD5nDPn8WCKHKtM=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihajCpE-4MEYxPjJj3-lanf0Hil8bd3L_lZtIMxkzwaLWcwN-_Hf0GnXFa7Lhmu19_W5u9fN4frtTLitGa7gnRiTzFm4lMc1HXE=s1600-rw-v1",
+          },
+          {
+            img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbQ1X3fRnbacvMUYLdpgO3nHzNc68f0H--Psi-SdWsBFs3J8T3cu2ZmvxTg6waM49_TKIhD5_IOn9QNK_emG-5DTpuuhl6gBWo=s1600-rw-v1",
           },
         ]
       : [];
@@ -289,18 +376,18 @@ export default function Home() {
     {
       id: 4,
       label: "Cormwall",
-      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+      img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbmqJs_tT79jNha1N9EeDhAA32pbNqsAwXgNERzhUXFowGDdEocAWG2bfXe0ilAJD1YlS4ioZJvvrT77MCa4UGEzOEiEt6Cuck=s1600-rw-v1",
     },
     {
       id: 5,
       label: "Wales",
-      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+      img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbktDMXt1mekZ6l-t3ILAt1_mkhtyDUNLQwvER2wy1XfJ_rEHMxOKJkSXCPovh7riKUgl5KtS10GFe9UuXHtcFh1MGNGbzk8w=s1600-rw-v1",
     },
 
     {
       id: 8,
       label: "London",
-      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+      img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYU60rqirQbDT_6QCFc5ZoPJiXOZc_TvQvlxMB2BGikR-yGnlRsrHr5JAiSI_11_hTqLAct155sg45yBwIuB7MK0KqNKoJ8Z2E=s1600-rw-v1",
     },
   ];
 
@@ -370,11 +457,17 @@ export default function Home() {
           display: "flex",
           justifyContent: "center",
 
-          padding: "0px 0px 20px 30px",
+          padding: "40px 0px 20px 30px",
           // padding: "100px 134px 37px 134px",
         }}
       >
-        <img src={"https://lh3.googleusercontent.com/drive-viewer/AKGpihanS8OjjgJGCjq3dReVNScAhyxQQq_b-iazvlbVVbaicqPZVo-KV0bhl9F31-pB3j9vsttXMI70wLKDSbvjjj2xDQPZW59s8bg=s1600-rw-v1"} alt="img" width={"300px"} />
+        <img
+          src={
+            "https://lh3.googleusercontent.com/drive-viewer/AKGpihanS8OjjgJGCjq3dReVNScAhyxQQq_b-iazvlbVVbaicqPZVo-KV0bhl9F31-pB3j9vsttXMI70wLKDSbvjjj2xDQPZW59s8bg=s1600-rw-v1"
+          }
+          alt="img"
+          width={"300px"}
+        />
 
         <Grid item xs={12} md={6}>
           <Typography
