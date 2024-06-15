@@ -601,7 +601,7 @@ export default function Home() {
           alt="img"
           width={"350px"}
           style={{
-            borderRadius:"30px"
+            borderRadius: "30px",
           }}
         />
 
@@ -631,7 +631,7 @@ export default function Home() {
         sx={{
           backgroundColor: "#F8F1F1",
           // height: "500px",
-          gap: "45px",
+          gap: { xs: "0px", md: "45px" },
           padding: { xs: "20px", md: "20px 200px 20px 19px" },
           display: "flex",
           flexDirection: { xs: "column", md: "row-reverse" },
@@ -668,7 +668,7 @@ export default function Home() {
               height: "300px",
               backgroundSize: "cover",
               backgroundPosition: "center",
-              borderRadius:"30px",
+              borderRadius: "30px",
               "&:hover": {
                 opacity: 0.8,
               },
