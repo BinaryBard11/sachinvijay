@@ -56,6 +56,10 @@ export default function Home() {
     // window.open("https://www.facebook.com/Tonyhawk.sachinvijay1997");
   };
 
+  const openLinkdin = () => {
+    window.location.href = "https://www.linkedin.com/in/sachin-vijaysvj";
+ 
+  };
   const openSpotify = () => {
     window.location.href =
       "https://open.spotify.com/user/240pq6k706l19tpoc5ltxg913?si=elJylo5lRzeMyNfPB-i7oA";
@@ -443,7 +447,7 @@ export default function Home() {
             cols: 2,
           },
         ]
-      : dailogeTitle === "Cormwall"
+      : dailogeTitle === "Cornwall"
       ? [
           {
             img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihapy3eth3UzOK-XQ0d5EAXq5H7kD9ZWlA9z8HCpmBxX8YrT7mgeus96krTLAi3EJipnI4H_pndMMqaw2eNjgp1q_sr7qzbSXuQ=s1600-rw-v1",
@@ -508,7 +512,7 @@ export default function Home() {
     },
     {
       id: 4,
-      label: "Cormwall",
+      label: "Cornwall",
       img: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbmqJs_tT79jNha1N9EeDhAA32pbNqsAwXgNERzhUXFowGDdEocAWG2bfXe0ilAJD1YlS4ioZJvvrT77MCa4UGEzOEiEt6Cuck=s1600-rw-v1",
     },
     {
@@ -566,7 +570,10 @@ export default function Home() {
             }}
             onClick={openInsta}
           />{" "}
-          <LinkedInIcon />{" "}
+          <LinkedInIcon  sx={{
+              cursor: "pointer",
+            }}
+            onClick={openLinkdin} />{" "}
           <FacebookIcon
             sx={{
               cursor: "pointer",
@@ -613,7 +620,7 @@ export default function Home() {
               lineHeight: "27px",
             }}
           >
-            Hey there! I'm Sachin Vijay, an automotive engineer with a passion
+            Hey there! I'm Sachin Vijay, an Mechanical/Automotive engineer with a passion
             for traveling and living life to the fullest. Born and raised in
             India, I chased my dreams all the way to the UK, where I completed
             my master's . Traveling is my ultimate joy – there's nothing like
