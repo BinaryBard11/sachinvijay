@@ -620,7 +620,7 @@ export default function Home() {
               lineHeight: "27px",
             }}
           >
-            Hey there! I'm Sachin Vijay, an Mechanical/Automotive engineer with a passion
+            Hey there! I'm Sachin Vijay, an Mechanical /Automotive engineer with a passion
             for traveling and living life to the fullest. Born and raised in
             India, I chased my dreams all the way to the UK, where I completed
             my master's . Traveling is my ultimate joy – there's nothing like
